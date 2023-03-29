@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "retrievallangchainplugin"
+version = "0.1.0"
+description = "Dependency manager for Retrieval Langchain Plugin Architecture"
+authors = ["Sangeetha Venkatesan, Misbah Syed"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.0"
+gunicorn = "^20.1.0"
+fastapi = "^0.95.0"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
